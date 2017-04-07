@@ -151,7 +151,7 @@ a:hover,a:focus{ text-decoration: none}
     padding: 0 20px 0 0;
 }
 .list-inline.info a,.list-inline.social_icon a {
-    color: #222;
+    color: #fff;
     font-family: 'futura_ltbook', sans-serif;
 }
 .list-inline.info a:hover,.list-inline.social_icon a:hover {
@@ -177,6 +177,8 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
     color: #aaa;
 }
 .navbar-brand {
+    width:202px;
+    height:60px;
     height: auto;
     padding: 20px 15px;
 }
@@ -211,7 +213,7 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
     height: 700px;
 }*/
 .carousel .overlay {
-    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -321,7 +323,7 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
 .why_us_item{ padding-top: 55px;}
 #why_us .fa{
     border-radius: 100%;
-    box-shadow: 0 0 0 10px #3B5998, 0 0 0 20px #fadb64, 0 0 0 30px #f7e59c;
+    box-shadow: 0 0 0 10px #3B5998, 0 0 0 20px #6D84B4, 0 0 0 30px #AFBDD4;
     padding: 38px;
     font-size:45px;
 }
@@ -621,7 +623,8 @@ footer::after {
     margin-bottom: 34px;
     text-transform: inherit;
 }
-.footer_item .list-unstyled > li a{
+.footer_item .list-unstyled > li p{
+    font-size:20px;
     color: #fff;
 }
 /* Footer About */
